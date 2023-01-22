@@ -34,6 +34,10 @@ button {
   line-height: 125%;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 form {
   display: flex;
   padding: 180px 48px 48px;
