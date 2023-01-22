@@ -10,7 +10,7 @@ function add() {
   const dayExists = nlwSetup.dayExists(today);
 
   if(dayExists) {
-    alert('O dia ' + today + ' já está adicionado! ❌');
+    alert('O dia ' + today + ' já está adicionado! Volte amanhã! ❌');
     return;
   };
 
